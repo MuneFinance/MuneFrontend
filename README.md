@@ -1,4 +1,4 @@
-# Mune.Finance Contracts
+# Mune.Finance Frontend
 
 An open source UI for Mune.Finance
 
