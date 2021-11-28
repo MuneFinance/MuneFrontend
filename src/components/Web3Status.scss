@@ -1,0 +1,65 @@
+@import "../styles/theme";
+@import "../styles/viewports";
+
+div.walletStatus {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  & > button {
+    color: var(--text-darker);
+    border: none;
+    padding: 0;
+    background: none;
+    font-family: $font-family;
+    font-size: 15px;
+    @include breakpoint(lg) {
+      font-size: 15px;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      outline: none;
+    }
+  }
+  .hasAccount {
+    span.address {
+      margin-right: 8px;
+      @include breakpoint(md) {
+        display: none;
+      }
+    }
+  }
+  .noAccount {
+    height: 30px;
+    width: 60px;
+    border: 1px solid var(--outline);
+    border-radius: 5px;
+    line-height: 30px;
+    color: var(--header-text);
+    font-weight: $normal;
+    align-items: center;
+
+    @include breakpoint(lg) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      line-height: 30px;
+      width: 60px;
+    }
+    @include breakpoint(md) {
+      position: relative;
+      left: 20px;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      outline: none;
+      border: 1px solid var(--outline);
+      transform: none;
+      transition: none;
+      cursor: pointer;
+    }
+  }
+}
