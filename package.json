@@ -6,7 +6,7 @@
   "dependencies": {
     "@chakra-ui/react": "^1.4.1",
     "@emotion/react": "^11.1.5",
-    "@emotion/styled": "^11.1.5",
+    "@emotion/styled": "^11.10.4",
     "@metamask/jazzicon": "^2.0.0",
     "@reduxjs/toolkit": "^1.4.0",
     "@types/classnames": "^2.2.11",
